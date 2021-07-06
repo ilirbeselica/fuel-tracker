@@ -116,18 +116,18 @@ const Derivate = () => {
           onChange={(e) => setDatas({ ...datas, tabela: e.target.value })}
         >
           <option value="Tabelat">Tabelat</option>
-          <option value="01-647-OJ">01-647-OJ</option>
-          <option value="01-645-OJ">01-645-OJ</option>
-          <option value="01-639-HR">01-639-HR</option>
-          <option value="01-918-LJ">01-918-LJ</option>
-          <option value="01-401-OB">01-401-OB</option>
-          <option value="01-228-IM">01-228-IM</option>
-          <option value="01-143-KL">01-143-KL</option>
-          <option value="01-161-NE">01-161-NE</option>
-          <option value="01-674-LK">01-674-LK</option>
-          <option value="01-547-BL">01-547-BL</option>
-          <option value="01-837-NF">01-837-NF</option>
-          <option value="VIPROS">VIPROS</option>
+          <option value="Vehicle ID">Vehicle ID</option>
+          <option value="Vehicle ID">Vehicle ID</option>
+          <option value="Vehicle ID">Vehicle ID</option>
+          <option value="Vehicle ID">Vehicle ID</option>
+          <option value="Vehicle ID">Vehicle ID</option>
+          <option value="Vehicle ID">Vehicle ID</option>
+          <option value="Vehicle ID">Vehicle ID</option>
+          <option value="Vehicle ID">Vehicle ID</option>
+          <option value="Vehicle ID">Vehicle ID</option>
+          <option value="Vehicle ID">Vehicle ID</option>
+          <option value="Vehicle ID">Vehicle ID</option>
+
         </select>
       </div>
 
@@ -140,16 +140,15 @@ const Derivate = () => {
           onChange={(e) => setDatas({ ...datas, personi: e.target.value })}
         >
           <option value="personi">Personi</option>
-          <option value="Leutrimi">Leutrimi</option>
-          <option value="Agimi">Agimi</option>
-          <option value="Mirani">Mirani</option>
-          <option value="Besarti">Besarti</option>
-          <option value="Valdrini">Valdrini</option>
-          <option value="Valmira">Valmira</option>
-          <option value="Emini">Emini</option>
-          <option value="Lumi">Lumi</option>
-          <option value="Market">Market</option>
-          <option value="vipros">Vipros</option>
+          <option value="Employee Name">Employee Name</option>
+          <option value="Employee Name">Employee Name</option>
+          <option value="Employee Name">Employee Name</option>
+          <option value="Employee Name">Employee Name</option>
+          <option value="Employee Name">Employee Name</option>
+          <option value="Employee Name">Employee Name</option>
+          <option value="Employee Name">Employee Name</option>
+          <option value="Employee Name">Employee Name</option>
+          <option value="Employee Name">Employee Name</option>
         </select>
       </div>
 
@@ -254,18 +253,17 @@ const Derivate = () => {
           }
         >
           <option value="gjitha">Te Gjitha</option>
-          <option value="01-647-OJ">01-647-OJ</option>
-          <option value="01-645-OJ">01-645-OJ</option>
-          <option value="01-639-HR">01-639-HR</option>
-          <option value="01-918-LJ">01-918-LJ</option>
-          <option value="01-401-OB">01-401-OB</option>
-          <option value="01-228-IM">01-228-IM</option>
-          <option value="01-143-KL">01-143-KL</option>
-          <option value="01-161-NE">01-161-NE</option>
-          <option value="01-674-LK">01-674-LK</option>
-          <option value="01-547-BL">01-547-BL</option>
-          <option value="01-837-NF">01-837-NF</option>
-          <option value="VIPROS">VIPROS</option>
+          <option value="Vehicle ID">Vehicle ID</option>
+          <option value="Vehicle ID">Vehicle ID</option>
+          <option value="Vehicle ID">Vehicle ID</option>
+          <option value="Vehicle ID">Vehicle ID</option>
+          <option value="Vehicle ID">Vehicle ID</option>
+          <option value="Vehicle ID">Vehicle ID</option>
+          <option value="Vehicle ID">Vehicle ID</option>
+          <option value="Vehicle ID">Vehicle ID</option>
+          <option value="Vehicle ID">Vehicle ID</option>
+          <option value="Vehicle ID">Vehicle ID</option>
+          <option value="Vehicle ID">Vehicle ID</option>
         </select>
       </div>
 
