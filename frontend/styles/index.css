@@ -1,0 +1,62 @@
+.container {
+    margin-top: 50px;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,12,1) 0%, rgba(7,123,156,1) 0%, rgba(6,78,166,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.items {
+    border: 3px solid white;
+    border-radius: 10%;
+    margin: 20px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    box-shadow:  5px 5px cornflowerblue;
+}
+
+.form-group > label {
+    color: white;
+    padding: 3px;
+}
+
+.butoni {
+    margin-top: 20px;
+    background-color: inherit;
+    border: 3px solid white;
+    width: 30vh;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.zgjedh {
+    color: white;
+    font-size: 3vh;
+}
+
+.col-12 {
+    padding: 20px;
+    border: 2px solid whitesmoke;
+    margin: 20px;
+    border-radius: 20%;
+    box-shadow: 3px 5px white;
+}
+
+.col-12:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a > href:hover {
+    color: inherit;
+}
