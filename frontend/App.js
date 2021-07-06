@@ -14,7 +14,7 @@ const App = () => {
     const token = localStorage.getItem("auth-token");
     if (token !== null) {
       const response = await axios.post(
-        "http://161.97.81.17:8898/users/tokenIsValid",
+        "http://server-ip:PORT/users/tokenIsValid",
         null,
         {
           headers: { "x-auth-token": localStorage.getItem("auth-token") },

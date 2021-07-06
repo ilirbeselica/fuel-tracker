@@ -25,7 +25,7 @@ const Derivate = () => {
 
   const sendData = (data) => {
     axios
-      .post("http://161.97.81.17:8898/api/derivate", data, {
+      .post("http://server-ip:PORT/api/derivate", data, {
         headers: authHeader,
       })
       .then((res) => {
@@ -47,7 +47,7 @@ const Derivate = () => {
 
   const getData = (data) => {
     axios
-      .post("http://161.97.81.17:8898/api/derivate/info", data, {
+      .post("http://server-ip:PORT/api/derivate/info", data, {
         headers: authHeader,
       })
       .then((res) => {

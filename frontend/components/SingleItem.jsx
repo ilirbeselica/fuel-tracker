@@ -39,7 +39,7 @@ const SingleItem = (props) => {
           onClick={() => {
             axios
               .post(
-                "http://161.97.81.17:8898/api/derivate/delete",
+                "http://server-ip:PORT/api/derivate/delete",
                 {
                   id: _id,
                 },
